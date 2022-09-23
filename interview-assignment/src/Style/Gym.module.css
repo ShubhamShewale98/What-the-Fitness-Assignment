@@ -1,0 +1,96 @@
+.inputContainer {
+  background-color: black;
+  padding: 1%;
+}
+
+.inputContainer > div {
+  margin-top: 10%;
+  margin: auto;
+  width: 80%;
+  height: 50px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.inputContainer > div > div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5%;
+}
+.inputContainer > div > div:first-child {
+  margin-top: 1%;
+}
+
+/*  backgroundColor: "transparent",
+                border: " 0px solid",
+                height: "20px",
+                width: "160px",
+                color: "#CCC", */
+.inputContainer > div > div:first-child input {
+  background-color: transparent;
+  border: 0px solid;
+  height: 20px;
+  width: 160px;
+  color: #ccc;
+}
+.inputContainer > div > div > div:nth-child(2) {
+  display: flex;
+  gap: 10%;
+  justify-content: flex-end;
+  margin-top: -0.5%;
+}
+
+.inputContainer > div > div > div:nth-child(2) > div {
+  background-color: #920909;
+  height: 40px;
+  width: 40px;
+  margin: auto;
+  border-radius: 25%;
+}
+/*  width:"150px"  , margin:"auto" , 
+borderRadius:"25%" , marginRight:"1%" */
+.inputContainer > div > div > div:nth-child(2) > button {
+  background-color: #920909;
+  height: 30px;
+  width: 150px;
+  margin: auto;
+  border: radius 25%;
+  margin-top: 1%;
+}
+.LeftSide {
+  text-align: left;
+  background-color: black;
+  color: white;
+ height: 450px;
+  padding:2% ;
+  padding-left: 5%;
+}
+.LeftSide p:nth-child(1) {
+  font-size: 30px;
+  line-height: 5px;
+}
+.LeftSide > div {
+  border: 2px solid #2e2e2e;
+  background-color: #2e2e2e;
+  width: 200px;
+}
+.LeftSide select {
+    border: 2px solid #2e2e2e;
+    background-color: #2e2e2e;
+    width: 200px;
+  }
+.LeftSide > div input {
+  outline: none;
+  background-color: #2e2e2e;
+}
+.price {
+  display: flex;
+  gap: 10%;
+  background-color: #fff;
+  width: 10px;
+}
+.price input {
+  width: 50px;
+  height: 30px;
+  border: 1px solid white;
+}

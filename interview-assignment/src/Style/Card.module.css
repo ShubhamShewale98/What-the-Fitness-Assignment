@@ -1,0 +1,33 @@
+.contanier {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin: 2%;
+}
+.contanier .left {
+  background-color: #131313;
+}
+.contanier .right {
+  background-color: #131313;
+}
+.contanier .right p {
+  color: white;
+  text-align: left;
+}
+.contanier .right div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0%;
+}
+.contanier .right button {
+  background-color: red;
+  margin-right: 2%;
+  width: 100px;
+  height: 40px;
+  border-radius: 10%;
+}
+/* .contanier:nth-child(2) > p{
+  
+    color: white;
+    
+
+} */
